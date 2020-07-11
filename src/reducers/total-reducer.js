@@ -1,22 +1,19 @@
-import { COMPLETE_TODO, DELETE_TODO, UNDO } from '../actions'
+import { COMPLETE_TODO, UNDO_TODO, CLEAR_TOTAL } from '../actions'
 
 export default function (state = 0, action) {
     switch(action.type) {
         case COMPLETE_TODO:
-            state += 1
+            state += action.payload.points
             return state
 
-        case DELETE_TODO:
+        case UNDO_TODO:
             if(state > 0) {
-                state -= 1
+                state -= action.payload.points
             }
             return state
 
-        case UNDO:
-            if(state > 0) {
-                state -= 1
-            }
-            return state
+        case CLEAR_TOTAL:
+            return 0
 
         default:
             return state

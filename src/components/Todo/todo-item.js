@@ -1,8 +1,8 @@
 class TodoItem {
-    constructor(title) {
+    constructor(title, points = 1) {
         this.title = title;
         this.completed = false;
-        this.points = 3;
+        this.points = points;
     }
 }
 

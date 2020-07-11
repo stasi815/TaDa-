@@ -1,0 +1,56 @@
+.todo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+div.task-points {
+    display: flex;
+}
+
+p {
+    flex: 1;
+    font-size: 22px;
+}
+
+.buttons {
+    display: flex;
+    flex: 1;
+}
+
+button {
+    margin-right: .5em;
+    border-radius: 8px;
+    padding: 0.35em 0.65em;
+    border: 1px solid;
+}
+
+.completed {
+    --fg-color: rgb(41, 155, 73);
+    --bg-color: white;
+}
+
+.completed:hover {
+    --fg-color: white;
+    --bg-color: rgb(41, 155, 73);
+}
+
+.done {
+    --fg-color: rgb(72, 126, 220);
+    --bg-color: white;
+}
+
+.done:hover {
+    --fg-color: white;
+    --bg-color: rgb(72, 126, 220);
+}
+
+.delete-button {
+    --fg-color: tomato;
+    --bg-color: white;
+}
+
+.delete-button:hover {
+    --fg-color: white;
+    --bg-color: tomato;
+}

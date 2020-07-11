@@ -1,0 +1,8 @@
+.table-heading {
+    display: flex;
+    justify-content: space-between;
+}
+
+.table-heading > * {
+    flex: 1;
+}

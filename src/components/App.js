@@ -2,9 +2,9 @@ import React, { Component } from 'react';
 import { createStore } from 'redux';
 import { Provider } from 'react-redux';
 import reducers from '../reducers';
-import Todo from './Todo/todo'
+import Todo from './Todo/add-todo'
 import TodoList from './Todo/todo-list'
-import Total from './Todo/total'
+import PointTotal from './Todo/point-total'
 import './App.css';
 
 const TODO_STATE = 'TODO_STATE'
@@ -45,7 +45,7 @@ class App extends Component {
         <div className="App">
           <TodoList />
           <Todo />
-          <Total />
+          <PointTotal />
         </div>
       </Provider>
     );

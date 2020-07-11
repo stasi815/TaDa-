@@ -1,29 +1,32 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import SingleTodo from './single-todo';
+import ShowTodo from './show-todo';
+import './todo-list.css'
 
 class TodoList extends Component {
-    getList () {
+    getList() {
         console.log(this.props.todos)
         return this.props.todos.map((todo, index) => {
             return (
-                <ul>
-                    <li>
-                        <SingleTodo 
-                            key={index} 
-                            index={index} 
-                            title={todo.title}
-                            completed={todo.completed}
-                        />
-                    </li>
-                </ul>
+                    <ShowTodo
+                        key={index}
+                        index={index}
+                        title={todo.title}
+                        completed={todo.completed}
+                        points={todo.points}
+                    />
             )
         })
     }
 
     render() {
         return (
-            <div>
+            <div className="list-table">
+                <div className='table-heading'>
+                    <h2>Tasks</h2>
+                    <h2>Points</h2>
+                    <h2>Status</h2>
+                </div>
                 {this.getList()}
             </div>
         )
