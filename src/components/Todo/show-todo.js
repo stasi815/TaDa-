@@ -20,9 +20,10 @@ function ShowTodo(props) {
                             dispatch(completeTodo(index, points))
                         }
                     }}>{ completed ? 'Done!' : 'Complete' }
-                </button><div className='vertical'></div>
+                </button>
+                <div className='vertical'></div>
                 <button
-                    className='delete-button'
+                    className='delete-button btn-medium'
                     onClick={(e) => {
                         dispatch(deleteTodo(index))
                     }}>Delete</button>
