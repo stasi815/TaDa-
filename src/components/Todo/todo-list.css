@@ -1,3 +1,7 @@
+.list-table {
+    padding-left: 3em;
+}
+
 .table-heading {
     display: flex;
     justify-content: space-between;

@@ -1,6 +1,8 @@
 div.total {
     display: flex;
     margin-top: 2.5em;
+    margin-bottom: 2.5em;
+    padding-left: 3em;
 }
 
 .point-display {

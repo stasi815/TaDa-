@@ -1,6 +1,7 @@
 .add-todo {
     display: flex;
-    margin-top: 5em;
+    margin-top: 3em;
+    padding-left: 3em;
 }
 
 div.input {
@@ -13,14 +14,24 @@ div.input {
 }
 
 button.save {
-    margin: .25em;
+    margin: 0.25em;
 }
 
 input {
-    margin: 0 .5em;
+    margin: 0 0.5em;
 }
 
 .select-div {
     display: flex;
     flex-direction: column;
+    align-items: baseline;
 }
+
+select {
+    margin-right: 0.5em;
+}
+
+select.point-select {
+    margin-bottom: 0.5em;
+}
+

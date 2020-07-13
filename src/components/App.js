@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import { createStore } from 'redux';
 import { Provider } from 'react-redux';
 import reducers from '../reducers';
+import Navbar from './Navbar/navbar'
+import Footer from './Footer/footer'
 import Todo from './Todo/add-todo'
 import TodoList from './Todo/todo-list'
 import PointTotal from './Todo/point-total'
@@ -42,11 +44,13 @@ class App extends Component {
   render() {
     return (
       <Provider store={store}>
+        <Navbar />
         <div className="App">
           <TodoList />
           <Todo />
           <PointTotal />
         </div>
+        <Footer />
       </Provider>
     );
   }

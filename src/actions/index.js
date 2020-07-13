@@ -4,11 +4,12 @@ export const COMPLETE_TODO = "COMPLETE_TODO"
 export const DELETE_TODO = "DELETE_TODO"
 export const UNDO_TODO = 'UNDO_TODO'
 export const CLEAR_TOTAL = 'CLEAR_TOTAL'
+export const ADD_CATEGORY = 'ADD_CATEGORY'
 
-export const addTodo = (title, points) => {
+export const addTodo = (title, points, category) => {
     return {
         type: ADD_TODO,
-        payload: { title, points }
+        payload: { title, points, category }
     }
 }
 
@@ -46,6 +47,11 @@ export const clearTotal = () => {
     }
 }
 
-
+export const addCategory = (category) => {
+    return {
+        type: ADD_CATEGORY,
+        payload: { category }
+    }
+}
 
 

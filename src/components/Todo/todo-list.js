@@ -14,6 +14,7 @@ class TodoList extends Component {
                         title={todo.title}
                         completed={todo.completed}
                         points={todo.points}
+                        category={todo.category}
                     />
             )
         })
@@ -25,6 +26,7 @@ class TodoList extends Component {
                 <div className='table-heading'>
                     <h2>Tasks</h2>
                     <h2>Points</h2>
+                    <h2>Category</h2>
                     <h2>Status</h2>
                 </div>
                 {this.getList()}
