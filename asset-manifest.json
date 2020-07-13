@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/TaDa-/static/css/main.477b1283.chunk.css",
+    "main.js": "/TaDa-/static/js/main.3c21fc7e.chunk.js",
+    "main.js.map": "/TaDa-/static/js/main.3c21fc7e.chunk.js.map",
+    "runtime-main.js": "/TaDa-/static/js/runtime-main.de31c63e.js",
+    "runtime-main.js.map": "/TaDa-/static/js/runtime-main.de31c63e.js.map",
+    "static/js/2.e3f46929.chunk.js": "/TaDa-/static/js/2.e3f46929.chunk.js",
+    "static/js/2.e3f46929.chunk.js.map": "/TaDa-/static/js/2.e3f46929.chunk.js.map",
+    "index.html": "/TaDa-/index.html",
+    "precache-manifest.5f9c2b9967406ed0393a3fe3864affe3.js": "/TaDa-/precache-manifest.5f9c2b9967406ed0393a3fe3864affe3.js",
+    "service-worker.js": "/TaDa-/service-worker.js",
+    "static/css/main.477b1283.chunk.css.map": "/TaDa-/static/css/main.477b1283.chunk.css.map",
+    "static/js/2.e3f46929.chunk.js.LICENSE.txt": "/TaDa-/static/js/2.e3f46929.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.de31c63e.js",
+    "static/js/2.e3f46929.chunk.js",
+    "static/css/main.477b1283.chunk.css",
+    "static/js/main.3c21fc7e.chunk.js"
+  ]
+}
