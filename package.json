@@ -2,6 +2,7 @@
   "name": "tada",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://stasi815.github.io/TaDa-",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
@@ -37,6 +38,5 @@
   },
   "devDependencies": {
     "gh-pages": "^3.1.0"
-  },
-  "homepage": "http://stasi815.github.io/TaDa-",
+  }
 }
